@@ -1093,6 +1093,37 @@ static event OnPostTemplatesCreated ()
 		}
 	}
 
+
+	CharacterTemplateManager.FindDataTemplateAllDifficulties('FrostBerserker_M2', DataTemplateAllDifficulties);
+
+	foreach DataTemplateAllDifficulties (DataTemplate)
+	{
+		CharTemplate = X2CharacterTemplate(DataTemplate);
+
+		if(CharTemplate != none)
+		{
+			CharTemplate.Abilities.AddItem('Brawler');
+			CharTemplate.Abilities.AddItem('IronSkin');
+			CharTemplate.Abilities.AddItem('Resilience');
+			CharTemplate.Abilities.AddItem('MZInvertCounter');
+		}
+	}
+
+	CharacterTemplateManager.FindDataTemplateAllDifficulties('FrostBerserker_M3', DataTemplateAllDifficulties);
+
+	foreach DataTemplateAllDifficulties (DataTemplate)
+	{
+		CharTemplate = X2CharacterTemplate(DataTemplate);
+
+		if(CharTemplate != none)
+		{
+			CharTemplate.Abilities.AddItem('Brawler');
+			CharTemplate.Abilities.AddItem('IronSkin');
+			CharTemplate.Abilities.AddItem('Resilience');
+			CharTemplate.Abilities.AddItem('MZInvertCounter');
+		}
+	}
+
 	ModifyLoadouts();
 
 }

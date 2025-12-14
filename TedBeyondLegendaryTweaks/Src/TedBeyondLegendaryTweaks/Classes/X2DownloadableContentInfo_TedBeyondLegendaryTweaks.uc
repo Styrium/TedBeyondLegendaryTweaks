@@ -1199,6 +1199,9 @@ static final function ModifyLoadouts()
 	LoadoutsToPatch.AddItem('FrostTrooper_M1_Loadout');
 	LoadoutsToPatch.AddItem('FrostTrooper_M2_Loadout');
 	LoadoutsToPatch.AddItem('FrostTrooper_M3_Loadout');
+	LoadoutsToPatch.AddItem('AshArmoredTrooperM1_Loadout');
+	LoadoutsToPatch.AddItem('AshArmoredTrooperM2_Loadout');
+	LoadoutsToPatch.AddItem('AshArmoredTrooperM3_Loadout');
 
     NewItem.Item = 'NanofiberVest';
 
